@@ -19,29 +19,31 @@ Over the past century, the transportation sector has become a key economic activ
 
 ... ...
 
-The idea of TCSs originates with @dales, who proposed using these cap-and-trade policy instruments in the field of environmental economics for pollution control. They consist of the introduction of property rights for the production of externalities, which are valued and circulated in a market to achieve optimal allocation. To the present date, they have been applied in numerous fields, notably in the EU Emissions Trading System [@osti_21084863; @Gronwald.2015].
+The idea of TCSs originates with @dales, who proposed using these cap-and-trade policy instruments in the field of environmental economics for pollution control. They consist of the introduction of property rights for the production of externalities, which are valued and circulated in a market to achieve optimal allocation. To the present date, they have been applied in numerous fields, notably in the EU Emissions Trading System [@osti_21084863; @Gronwald.2015]. Reference to @fig-mindmap.
 
-@Mindmap here
 
-# ![Example of mindmap](flowchart.png){#mindap}
+![Example of mindmap](flowchart.png){#fig-mindmap}
 
 # Methodology and Data {#sec-methodology}
 
-This section provides an overview of the methodology of this study and introduces the collected data. First, we present the structure of the survey, recruitment method, and sample characteristics. Then, we detail the experimental design. We conclude by describing our modeling approach to investigate people's choices and trade-offs between different modes of transportation in the context of a TCS. here is a @test
+This section provides an overview of the methodology of this study and introduces the collected data. First, we present the structure of the survey, recruitment method, and sample characteristics. Then, we detail the experimental design. We conclude by describing our modeling approach to investigate people's choices and trade-offs between different modes of transportation in the context of a TCS. Here is another reference to @fig-test.
 
-![A drawing of an elephant.](ScenarioDesignBudgetDaymonthFinal2.png){#test fig-align="left" width="100%"}
+![This Figure was in the paper](ScenarioDesignBudgetDaymonthFinal2.png){#fig-test  fig-align="left" width="100%"}
 
-The text would continue here
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
+The following chunk will show the code for better reproducibility
 
 ```{r}
-#| echo: false
-2 * 2
+#| renderings: [dark]
+ma <- as.matrix(iris[, 1:4])
+colMeans(ma) # column means for matrix
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+The following @fig-flowers will be created without showing the code
+```{r}
+#| renderings: [dark] 
+#| label: fig-flowers
+#| fig-cap: "Flower plot"
+#| echo: False
+speciesID <- as.numeric(iris$Species)
+pairs(ma, col = rainbow(3)[speciesID]) # set colors by species
+```
