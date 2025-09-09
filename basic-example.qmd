@@ -1,0 +1,29 @@
+---
+title: "basic-example"
+author: "SA"
+format: html
+editor: visual
+bibliography: references.bib
+---
+
+# Quarto H1 level
+
+Here I could link a url link <https://quarto.org>.
+
+## Example of Quarto H2 level
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+
+
+```
+
+![Elephant](C:/Users/ge75mum/Downloads/eu_funded_en.jpg){fig-align="center" width="600"}
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+Here is a citation to a random R package[@dplyr]
