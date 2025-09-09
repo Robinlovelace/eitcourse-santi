@@ -1,0 +1,45 @@
+---
+title: "Mode Choice Behavior in a Tradable Mobility Credit Scheme: A Stated-Preference Experiment"
+author: "santiagoaom"
+format: html
+editor: visual
+bibliography: references.bib
+---
+
+# Abstract {#sec-abstract}
+
+Tradable Mobility Credit (TMC) schemes are considered a promising policy instrument to mitigate the production of transport [externalities](https://en.wikipedia.org/wiki/Externality) while enhancing equity and preserving social acceptance.\
+Nevertheless, research lacks a disaggregated analysis of their potential impacts on mode choice, while the empirical user behavior has remained largely unstudied. We address this gap by presenting the results of the first large-scale stated-preference (SP) experiment examining the complex trade-offs between travel time, internal and external travel costs, and other level-of-service attributes in a multimodal TMC scheme. Using multinomial logit models, we derive the perceived value of travel time (VTT) and the own- and cross-elasticities under such a scheme to discuss policy implications.
+
+Our results confirm the potential of TMC to reduce car usage ; despite its complexity, citizens understand the concept of TMCs and make decisions according to the underlying economic theory. Furthermore, the modeling results suggest the presence of different behavioral effects: *loss aversion*, and the *budget depletion* and *period* effects, which modulate the sensitivity to the credit charges. Our findings and the VTT and elasticity estimates are informative to improve behavioral modeling in future research on TMC schemes. Interestingly, we find that a traditional road user charging scheme would require a 77% tax for a comparative modal share impact. Hence, our results support the notion that TMC schemes are promising policy instruments for achieving sustainability goals.
+
+# Intro {#sec-intro}
+
+Over the past century, the transportation sector has become a key economic activity, providing countless benefits to society and sustaining millions of jobs worldwide. However, mobility-related activities also impose significant external costs % on society , including negative impacts on human health and the environment, such as contributing to global warming, air and water pollution, accidents, and urban sprawl [@Shiftan_2002; @Santos.2010; @handbook_transport_externalities; @schroder_ending_2022].
+
+... ...
+
+The idea of TCSs originates with @dales, who proposed using these cap-and-trade policy instruments in the field of environmental economics for pollution control. They consist of the introduction of property rights for the production of externalities, which are valued and circulated in a market to achieve optimal allocation. To the present date, they have been applied in numerous fields, notably in the EU Emissions Trading System [@osti_21084863; @Gronwald.2015].
+
+# Discussion {#sec-discussion}
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
