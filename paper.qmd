@@ -21,15 +21,17 @@ Over the past century, the transportation sector has become a key economic activ
 
 The idea of TCSs originates with @dales, who proposed using these cap-and-trade policy instruments in the field of environmental economics for pollution control. They consist of the introduction of property rights for the production of externalities, which are valued and circulated in a market to achieve optimal allocation. To the present date, they have been applied in numerous fields, notably in the EU Emissions Trading System [@osti_21084863; @Gronwald.2015].
 
-# Discussion {#sec-discussion}
+@Mindmap here
 
-## Quarto
+# ![Example of mindmap](flowchart.png){#mindap}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+# Methodology and Data {#sec-methodology}
 
-## Running Code
+This section provides an overview of the methodology of this study and introduces the collected data. First, we present the structure of the survey, recruitment method, and sample characteristics. Then, we detail the experimental design. We conclude by describing our modeling approach to investigate people's choices and trade-offs between different modes of transportation in the context of a TCS. here is a @test
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+![A drawing of an elephant.](ScenarioDesignBudgetDaymonthFinal2.png){#test fig-align="left" width="100%"}
+
+The text would continue here
 
 ```{r}
 1 + 1
